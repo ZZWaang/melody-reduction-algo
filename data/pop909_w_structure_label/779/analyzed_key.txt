@@ -1,0 +1,2 @@
+A:min
+Db:maj
