@@ -1,8 +1,8 @@
-# Tonal Reduction Algorithm
+# Melody Reduction Algorithm
 
 Melody reduction can be seen as an abstraction of a melody. 
-This code repository offers a simple computational approximation, i.e., Tonal Reduction Algorithm, via shortest-path finding.
-The term "tonal" means the reduction is conducted based on our preference of "linear motion" and "arpeggiation" in melody development in a harmony context.
+This code repository offers a simple computational approximation, i.e., Melody Reduction Algorithm, via shortest-path finding.
+The algorithm is previously named "tonal reduction algorithm" to emphasize the preferred "linear motion" and "arpeggiation" in melody development under a harmony context. However, such implementation can be confusing. For example, our algorithm can work for music that is not tonal. To avoid confusion, it is renamed to melody reduction algorithm.
 
 This algorithm is used in the paper:
 > Ziyu Wang, Lejun Min, and Gus Xia. Whole-Song Hierarchical Generation of Symbolic Music Using Cascaded Diffusion Models. ICLR 2024.
